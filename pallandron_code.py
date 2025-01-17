@@ -2,9 +2,7 @@
 while True:
     s = input('Enter the String : ')
 
-    p = s[::-1]
-
-    if p == s:
+    if s == s[::-1]:
         print('pallandron')
     else:
         print('Not an pallandron')
